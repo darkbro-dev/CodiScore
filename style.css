@@ -1,0 +1,518 @@
+/* Fashion Analysis App - Simple & Clean Design */
+
+/* Color Palette */
+:root {
+    --primary-color: #8b9dff;
+    --text-dark: #2d3748;
+    --border-color: #e2e8f0;
+}
+
+/* Global */
+.main {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#MainMenu,
+footer,
+header {
+    visibility: hidden;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.stButton>button {
+    background: linear-gradient(135deg, #a8b5ff 0%, #d4b5f0 100%) !important;
+    color: var(--text-dark) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0.75rem 2rem !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease !important;
+}
+
+.stButton>button:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(139, 157, 255, 0.3) !important;
+}
+
+/* Selectbox */
+.stSelectbox label {
+    color: var(--text-dark) !important;
+    font-weight: 600 !important;
+}
+
+.stSelectbox>div>div {
+    background: white !important;
+    border: 2px solid var(--border-color) !important;
+    border-radius: 8px !important;
+}
+
+.stSelectbox>div>div:hover {
+    border-color: var(--primary-color) !important;
+}
+
+.stSelectbox,
+.stSelectbox div,
+.stSelectbox span {
+    color: var(--text-dark) !important;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background: linear-gradient(135deg, #f0f4ff 0%, #fef5ff 100%) !important;
+    border: 2px solid var(--primary-color) !important;
+    border-radius: 12px !important;
+    padding: 1rem !important;
+    font-weight: 600 !important;
+    color: var(--primary-color) !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 2px 8px rgba(139, 157, 255, 0.15) !important;
+    margin: 1rem 0 !important;
+}
+
+.streamlit-expanderHeader:hover {
+    background: linear-gradient(135deg, #e8efff 0%, #fdeeff 100%) !important;
+    box-shadow: 0 4px 12px rgba(139, 157, 255, 0.25) !important;
+    transform: translateY(-1px) !important;
+}
+
+.streamlit-expanderContent {
+    background: linear-gradient(135deg, #f0f4ff 0%, #fef5ff 100%);
+    border: 2px solid var(--primary-color);
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    padding: 1.5rem;
+    margin-top: -0.5rem;
+}
+
+/* File Uploader */
+/* Fashion Analysis App - Simple & Clean Design */
+
+/* Color Palette */
+:root {
+    --primary-color: #8b9dff;
+    --text-dark: #2d3748;
+    --border-color: #e2e8f0;
+}
+
+/* Global */
+.main {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#MainMenu,
+footer,
+header {
+    visibility: hidden;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.stButton>button {
+    background: linear-gradient(135deg, #a8b5ff 0%, #d4b5f0 100%) !important;
+    color: var(--text-dark) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0.75rem 2rem !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease !important;
+}
+
+.stButton>button:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(139, 157, 255, 0.3) !important;
+}
+
+/* Selectbox */
+.stSelectbox label {
+    color: var(--text-dark) !important;
+    font-weight: 600 !important;
+}
+
+.stSelectbox>div>div {
+    background: white !important;
+    border: 2px solid var(--border-color) !important;
+    border-radius: 8px !important;
+}
+
+.stSelectbox>div>div:hover {
+    border-color: var(--primary-color) !important;
+}
+
+.stSelectbox,
+.stSelectbox div,
+.stSelectbox span {
+    color: var(--text-dark) !important;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background: linear-gradient(135deg, #f0f4ff 0%, #fef5ff 100%) !important;
+    border: 2px solid var(--primary-color) !important;
+    border-radius: 12px !important;
+    padding: 1rem !important;
+    font-weight: 600 !important;
+    color: var(--primary-color) !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 2px 8px rgba(139, 157, 255, 0.15) !important;
+    margin: 1rem 0 !important;
+}
+
+.streamlit-expanderHeader:hover {
+    background: linear-gradient(135deg, #e8efff 0%, #fdeeff 100%) !important;
+    box-shadow: 0 4px 12px rgba(139, 157, 255, 0.25) !important;
+    transform: translateY(-1px) !important;
+}
+
+.streamlit-expanderContent {
+    background: linear-gradient(135deg, #f0f4ff 0%, #fef5ff 100%);
+    border: 2px solid var(--primary-color);
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    padding: 1.5rem;
+    margin-top: -0.5rem;
+}
+
+/* File Uploader */
+.stFileUploader {
+    border: 2px dashed var(--border-color);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+/* Score containers */
+.score-container {
+    background: linear-gradient(135deg, #a8b5ff 0%, #d4b5f0 100%);
+    color: var(--text-dark);
+    border-radius: 16px;
+    /* More rounded */
+    padding: 1.5rem 1rem;
+    text-align: center;
+    min-height: 160px;
+    /* Slightly taller */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(139, 157, 255, 0.15);
+    /* Soft shadow */
+    transition: transform 0.2s ease;
+}
+
+.score-container:hover {
+    transform: translateY(-2px);
+}
+
+/* Fixed size for numeric scores */
+.score-value {
+    font-size: 3.5rem;
+    /* Larger and impactful */
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 1rem;
+    /* Clear separation */
+    color: #1a202c;
+    /* Darker for contrast */
+}
+
+/* Dynamic sizes for style text */
+.score-value-large {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #1a202c;
+}
+
+.score-value-medium {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    word-break: break-word;
+    color: #1a202c;
+}
+
+.score-value-small {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    word-break: break-word;
+    color: #1a202c;
+}
+
+/* Label styling */
+.score-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #4a5568;
+    letter-spacing: 0.05em;
+    /* Sophisticated look */
+
+    [data-testid="stSidebar"] * {
+        color: var(--text-dark) !important;
+    }
+
+}
+
+.streamlit-expanderHeader:hover {
+    background: linear-gradient(135deg, #e8efff 0%, #fdeeff 100%) !important;
+    box-shadow: 0 4px 12px rgba(139, 157, 255, 0.25) !important;
+    transform: translateY(-1px) !important;
+}
+
+.streamlit-expanderContent {
+    background: linear-gradient(135deg, #f0f4ff 0%, #fef5ff 100%);
+    border: 2px solid var(--primary-color);
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    padding: 1.5rem;
+    margin-top: -0.5rem;
+}
+
+/* File Uploader */
+/* Fashion Analysis App - Simple & Clean Design */
+
+/* Color Palette */
+:root {
+    --primary-color: #8b9dff;
+    --text-dark: #2d3748;
+    --border-color: #e2e8f0;
+}
+
+/* Global */
+.main {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#MainMenu,
+footer,
+header {
+    visibility: hidden;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.stButton>button {
+    background: linear-gradient(135deg, #a8b5ff 0%, #d4b5f0 100%) !important;
+    color: var(--text-dark) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0.75rem 2rem !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease !important;
+}
+
+.stButton>button:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(139, 157, 255, 0.3) !important;
+}
+
+/* Selectbox */
+.stSelectbox label {
+    color: var(--text-dark) !important;
+    font-weight: 600 !important;
+}
+
+.stSelectbox>div>div {
+    background: white !important;
+    border: 2px solid var(--border-color) !important;
+    border-radius: 8px !important;
+}
+
+.stSelectbox>div>div:hover {
+    border-color: var(--primary-color) !important;
+}
+
+.stSelectbox,
+.stSelectbox div,
+.stSelectbox span {
+    color: var(--text-dark) !important;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background: linear-gradient(135deg, #f0f4ff 0%, #fef5ff 100%) !important;
+    border: 2px solid var(--primary-color) !important;
+    border-radius: 12px !important;
+    padding: 1rem !important;
+    font-weight: 600 !important;
+    color: var(--primary-color) !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 2px 8px rgba(139, 157, 255, 0.15) !important;
+    margin: 1rem 0 !important;
+}
+
+.streamlit-expanderHeader:hover {
+    background: linear-gradient(135deg, #e8efff 0%, #fdeeff 100%) !important;
+    box-shadow: 0 4px 12px rgba(139, 157, 255, 0.25) !important;
+    transform: translateY(-1px) !important;
+}
+
+.streamlit-expanderContent {
+    background: linear-gradient(135deg, #f0f4ff 0%, #fef5ff 100%);
+    border: 2px solid var(--primary-color);
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    padding: 1.5rem;
+    margin-top: -0.5rem;
+}
+
+/* File Uploader */
+.stFileUploader {
+    border: 2px dashed var(--border-color);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+/* Score containers */
+.score-container {
+    background: linear-gradient(135deg, #a8b5ff 0%, #d4b5f0 100%);
+    color: var(--text-dark);
+    border-radius: 16px;
+    /* More rounded */
+    padding: 1.5rem 1rem;
+    text-align: center;
+    min-height: 160px;
+    /* Slightly taller */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(139, 157, 255, 0.15);
+    /* Soft shadow */
+    transition: transform 0.2s ease;
+}
+
+.score-container:hover {
+    transform: translateY(-2px);
+}
+
+/* Fixed size for numeric scores */
+.score-value {
+    font-size: 3.5rem;
+    /* Larger and impactful */
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 1rem;
+    /* Clear separation */
+    color: #1a202c;
+    /* Darker for contrast */
+}
+
+/* Dynamic sizes for style text */
+.score-value-large {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #1a202c;
+}
+
+.score-value-medium {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    word-break: break-word;
+    color: #1a202c;
+}
+
+.score-value-small {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    word-break: break-word;
+    color: #1a202c;
+}
+
+/* Label styling */
+.score-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #4a5568;
+    letter-spacing: 0.05em;
+    /* Sophisticated look */
+}
+
+[data-testid="stSidebar"] * {
+    color: var(--text-dark) !important;
+}
+
+/* Image */
+.stImage {
+    border-radius: 12px;
+}
+
+/* Detected Items Tags */
+.item-tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.item-tag {
+    background-color: #fff;
+    color: #2d3748;
+    border: 1px solid #cbd5e0;
+    border-radius: 9999px;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+}
+
+.item-tag:hover {
+    background-color: #f7fafc;
+    border-color: #a0aec0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .main {
+        padding: 1rem;
+    }
+
+    .score-container {
+        min-height: 120px;
+        max-height: 140px;
+    }
+}

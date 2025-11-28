@@ -15,7 +15,7 @@ st.set_page_config(
 
 # Load Custom CSS
 def load_css():
-    with open("d:/_Works Web/251126_CodiScore/style.css", encoding="utf-8") as f:
+    with open("style.css", encoding="utf-8") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 load_css()
